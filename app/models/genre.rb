@@ -17,9 +17,9 @@ class Genre < ActiveRecord::Base
      artists = self.artists
      @musician_name = []
      artists.each do |artist|
-       @musician_name << artist.name 
+       @musician_name << artist.name
      end
-     @musician_name 
+     @musician_name
   end
-  
+
 end
